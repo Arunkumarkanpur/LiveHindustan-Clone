@@ -7,13 +7,13 @@ return (
 <p className="text-sm">© {new Date().getFullYear()} Demo - educational use only.</p>
 </div>
 <div className="text-sm">
-<h5 className="font-semibold mb-2">संपर्क</h5>
+<h5 className="font-semibold mb-2">Connect with us</h5>
 <div>Email: arunkumarkanpur91@gmail.com</div>
 <div>Mobile No: +91 7518245035</div>
 </div>
 <div className="text-sm">
-<h5 className="font-semibold mb-2">अन्य</h5>
-<div>नियम और शर्तें</div>
+<h5 className="font-semibold mb-2">Other</h5>
+<div>Terms and Conditions</div>
 </div>
 </div>
 </footer>

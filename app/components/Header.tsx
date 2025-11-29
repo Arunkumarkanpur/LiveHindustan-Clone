@@ -1,3 +1,4 @@
+import Home from '../page';
 export default function Header() {
 return (
 <header className="bg-white border-b">
@@ -5,16 +6,16 @@ return (
 <div className="flex items-center gap-4">
 <div className="text-2xl font-bold text-red-600">LiveHindustan</div>
 <nav className="hidden md:flex gap-4 text-sm text-slate-600">
-<a className="hover:text-slate-900">मुख्य</a>
-<a className="hover:text-slate-900">राज्य</a>
-<a className="hover:text-slate-900">देश</a>
-<a className="hover:text-slate-900">खेल</a>
-<a className="hover:text-slate-900">मनोरंजन</a>
+<a className="hover:text-slate-900">Home</a>
+<a className="hover:text-slate-900">State</a>
+<a className="hover:text-slate-900">Country</a>
+<a className="hover:text-slate-900">Cricket</a>
+<a className="hover:text-slate-900">Entertainment</a>
 </nav>
 </div>
 
 
-<div className="text-sm text-slate-600">Sun, Nov 28 2025</div>
+<div className="text-sm text-slate-600">Nov 28 2025</div>
 </div>
 </header>
 );
